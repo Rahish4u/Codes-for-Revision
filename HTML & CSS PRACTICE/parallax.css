@@ -1,0 +1,68 @@
+html{
+    box-sizing: border-box;
+}
+
+*{
+    box-sizing: inherit;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.light{
+    background-color: #8ce6ec;
+    color: brown;
+}
+
+.dark{
+    background-color: #03073d;
+    color: white;
+}
+
+.image{
+ background-attachment: fixed;
+ background-size: contain;
+
+}
+
+.first-image{
+    background-image: url(https://cdn.pixabay.com/photo/2024/01/17/12/06/car-8514314_640.png);
+    min-height: 500px;
+
+}
+
+.second-image{
+    background-image: url(https://cdn.pixabay.com/photo/2017/05/11/11/15/workplace-2303851_640.jpg);
+    min-height: 500px;
+}
+
+.third-image{
+    background-image: url(https://cdn.pixabay.com/photo/2019/07/24/23/09/car-4361321_640.jpg) ;
+    min-height: 500px;
+}
+
+.fourth-image{
+    background-image: url(https://cdn.pixabay.com/photo/2017/05/11/11/15/workplace-2303851_640.jpg);
+    min-height: 500px;
+}
+
+.heading{
+    position: relative;
+    top: 200px;
+    left: 300px;
+    color: rgb(233, 231, 223);
+    font-size: 30px;
+    text-transform: uppercase;
+    background-color: #090128;
+    width: 35%;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    align-items: center;
+    opacity: 0.8;
+}
+

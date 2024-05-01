@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Ahan Restaurant</title>
+    <!-- Link to your CSS file for styling -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Link to your JavaScript file for map functionality -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Header with navigation -->
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <a href="index.html">Home</a> || <a href="menu.html">Menu</a> ||
+            <a href="about.html">About Us</a> || <a href="contact.html">Contact</a> ||
+        </nav>
+        <hr>
+    
+    </header>
+
+    <!-- Main content -->
+    <main>
+        <section id="contact-info">
+            <h2>Contact Information</h2>
+            <p>Address: Mahamurganj, Varanasi, Pin Code-221010</p>
+            <p>Phone: 123-456-7890</p>
+            <p>Email: ahan@restaurant.com</p>
+        </section>
+
+        <section id="contact-form">
+            <h2>Contact Form</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required> <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required> <br><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea> <br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section id="map">
+            <h2>Location</h2>
+            <!-- Include your map here using Google Maps API or another mapping service -->
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115408.09799845169!2d82.90870720707994!3d25.3208949197984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2db76febcf4d%3A0x68131710853ff0b5!2sVaranasi%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1710615543708!5m2!1sen!2sin" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <!-- Footer content with navigation and social media links -->
+        <div class="copyright">
+            <p>&copy; 2024 Ahan Restaurant. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Revision </title>
+
+    <style>
+        .float-left{
+            background: #3fbbe5;
+            border: 4px solid red;
+            height: 100px;
+            width: 100px;
+            float: left;
+            margin-left: 15px;
+            display: inline;
+        }
+
+        .float-right{
+            background: #3fbbe5;
+            border: 4px solid red;
+            height: 200px;
+            width: 100px;
+            float: right;
+            margin-left: 15px;
+            display: inline;
+        }
+
+        .para{
+            clear: inherit;
+        }
+
+        .container{
+            border: 2px solid blue;
+            height: 500px;
+            width: 500px;
+            position: relative;
+           
+        }
+
+        .box-1{
+            background-color: #f38f0b;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            position: static;
+        }
+
+        .box-2{
+            background-color: #0fee4e;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 50px;
+            left: 50px;
+            position: absolute;
+        }
+        .box-3{
+            background-color: #9708be;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            top: 20px;
+            left: 20px;
+           position: sticky;
+           
+        }
+    </style>
+</head> 
+<body>
+    <!--This is HTML Comment (Single-line) -->
+     <!--We can also write multi line comment 
+        (Multi-line) -->
+    <h3>Comment is used to better code readability as developer perspective</h3>
+    <hr>
+
+    <!-- List -->
+    <!-- Unordered list -->
+    <ul>
+        <li type="circle">Apple</li>
+        <li type="square">Banana</li>
+        <li type="disc">Orange</li>
+        <ul>
+            <li>Sub item1</li>
+            <li>Sub item2</li>
+            <li>Sub item3</li>
+            <ul>
+                <li>Sub sub item1</li>
+                <li>Sub sub item2</li>
+                <li>Sub sub item3</li>
+            </ul>
+
+        </ul>
+    </ul>
+    <hr>
+    <!-- Ordered list -->
+    <ol>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Orange</li>
+        <ol type="A">
+            <li>Sub item1</li>
+            <li>Sub item2</li>
+            <li>Sub item3</li>
+
+            <ol type="I">
+                <li>Sub sub item1</li>
+                <li>Sub sub item2</li>
+                <li>Sub sub item3</li> 
+            </ol>
+            
+        </ol>
+    </ol>
+    <hr>
+    <!-- Discription list -->
+    <dl>
+        <dt>Term-1</dt>
+        <dd>Defination-1</dd>
+        <dt>Term-2</dt>
+        <dd>Defination-2</dd>
+    </dl>
+    <hr>
+
+    <!-- Anchor Type -->
+    <a href="https://pwskills.com" target="_blank">Pw Skills</a>
+    <br>
+    <hr>
+
+    <!-- Iframe Type -->
+    <iframe width="300" height="100" style="border: 3px dashed #808cf8;"
+    srcdoc ="<a target = '_parent'
+    href = 'https://pwskills.com'> pwskills</a>">
+       
+    </iframe>
+    <hr>
+
+    <p>Click to learn more about
+    <a target="display-frame"
+    href="https://pwskills.com">PW Skills </a>
+    </p>
+
+    <p>This is Iframe</p>
+    <iframe name="display-frame"
+    style="width: 100%; height: 600px; border: 2px solid black;"
+    src="" frameborder="0"></iframe>
+
+    <!-- Table -->
+    <table border="1px solid black" cellpadding="20px" cellspacing="10px" bgcolor="#66ffcc">
+       
+            <tr bgcolor="#ff6600">
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+                <th>Designation</th>
+            </tr>
+            <tbody bgcolor="#ff4dc4">
+            <tr>
+                <td>Rohan</td>
+                <td>24</td>
+                <td>Varanasi</td>
+                <td rowspan="2">Web Developer</td>
+            </tr>
+            <tr>
+                <td>Amit</td>
+                <td>21</td>
+                <td>Allahabad</td>
+                
+            </tr>
+            <tr>
+                <td>Rahish</td>
+                <td>24</td>
+                <td rowspan="2">Varanasi</td>
+                <td>Web Developer</td>
+            </tr>
+            <tr>
+                <td>Hari</td>
+                <td>26</td>
+                
+                <td>Teacher</td>
+            </tr>
+        </tbody>
+            <tr bgcolor="#e6e600"> 
+                <td colspan="4">We are team of developers and teachers🤝🤝🅰️👥👥👥</td>
+            </tr>
+    </table>
+
+<!-- HTML Media -->
+<!-- Img tag -->
+<h3>This is simple image</h3>
+<img src="https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="400px" height="300px" alt="Image">
+<hr>
+
+<!-- For audio -->
+<h3>This is audio tag </h3>
+
+<audio src="./Menu_Kehn_De_(Remix).mp3" controls></audio>
+<hr>
+
+<!-- This is video tag -->
+<h3>This is video tag</h3>
+<video src="https://player.vimeo.com/progressive_redirect/playback/392289251/rendition/360p/file.mp4?loc=external&oauth2_token_id=1747418641&signature=4d45304d40895ba2e4015f3ba9573f199ebe707a909ed82acaa576a5dc0105e1" controls></video>
+<hr>
+
+<!-- embed videos from youtube by iframe -->
+
+<h2>These are videos from youtube</h2>
+<div>
+<iframe width="500" height="300" src="https://www.youtube.com/embed/XiJ81qAkfjk?si=-4cRTVAMWQtEeATi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="500" height="300" src="https://www.youtube.com/embed/17hPWAnhbI4?si=wG_mnu4cVsE7O4sw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+
+    <!-- Float and Clear Property -->
+<!-- <div>
+<div class="float-left">left</div>
+<div class="float-right">Right</div>
+<p class="para"></p>
+   Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus rerum nesciunt, rem alias fugiat tempore sint? Quia laborum dolore debitis accusantium facilis quis veniam explicabo ab, ullam voluptatem tempora fuga?</p>
+</div> -->
+
+<hr>
+
+<!-- This the Possition Property -->
+
+<div class="container">
+    <div class="box box-1"></div>
+    <div class="box box-2"></div>
+    <div class="box box-3"></div>
+</div>
+
+
+</body>
+</html>

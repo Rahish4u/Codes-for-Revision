@@ -1,0 +1,76 @@
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+.main{
+    margin: 50px 100px;
+    /* border: 2px solid black; */
+}
+
+.profile{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.hero-top{
+    text-align: center;
+    width: 800px;
+    margin: auto;
+}
+
+.hero-heading{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family:  sans-serif;
+}
+
+.hero-subheading{
+    margin-top: 5px;
+    font-size: 20px;
+    font-family:  sans-serif;
+}
+
+.hero-para{
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+    color: #6d6d6d;
+}
+
+.hero-bottom{
+    width: 300px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+/* placing stars using absolute option */
+
+.star-1{
+    width: 50px;
+    position: absolute;
+    left: 350px;
+    top: 30px;
+}
+
+.star-2{
+    width: 50px;
+    position: absolute;
+    right: 350px;
+    top: 30px;
+}
+
+/* placing bgprofile using relative option */
+
+.bgprofile{
+    position: relative;
+    width: 200px;
+    bottom: 180px;
+    left: 40px;
+    z-index: -1;
+}
