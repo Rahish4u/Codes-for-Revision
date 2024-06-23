@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Bus Ticket Booking</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav class="navbar" id="navbar">
+      <div class="nav_container">
+        <img
+          src="./assets/rdc-redbus-logo.svg"
+          alt="logo"
+          class="redbus_logo"
+        />
+        <!-- nav bar mid section -->
+        <ul class="nav_mid_section">
+          <li class="bus_ticket">
+            <img src="assets/rb_vertical.svg" alt="bus_ticket" />
+            <p>Bus Ticket</p>
+          </li>
+          <li class="train_tickets">
+            <img src="assets/rail_vertical.svg" alt="train_tickets" />
+            <p>Train Tickets</p>
+          </li>
+        </ul>
+
+        <!-- nav bar right section -->
+        <ul class="nav_right_section">
+          <li class="help">
+            <img src="assets/headphones-support.svg" alt="support" />
+            <p>Help</p>
+          </li>
+          <li class="acsount">
+            <img src="assets/account.png" alt="account" />
+            <p>Account</p>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="main">
+      <div class="section_one">
+        <div class="section_one_container">
+          <h1 class="section_one_heading">
+            India’s No. 1 Bus Ticket Booking Site
+          </h1>
+
+          <div class="filter">
+            <div class="from">
+              <label for="from">
+                <img src="./assets/from.png" alt="from" />
+                <input type="text" name="from" placeholder="from" id="from" />
+              </label>
+            </div>
+
+            <div class="to">
+                <label for="to">
+                  <img src="./assets/to.png" alt="to" />
+                  <input type="text" name="to" placeholder="to" id="to" />
+                </label>
+              </div>
+              <div class="date">
+                <input type="date" name="date" id="date"
+                value="2024-06-20">
+              </div>
+              <button type="submit" class="search">SEARCH BUSES</button>
+          </div>
+
+          <div class="trending_offers">
+            <h1 class="trending_offers_heading">TRENDING OFFERS</h1>
+            <div class="offerCarousel">
+              <!-- card one -->
+               <div class="offer_card_one">
+                <div class="left">
+                  <img class="trending_offer_img" src="./assets/trending offer 1.png" alt="trending_offer 1">
+                </div>
+                <div>
+                <div class="bus">
+                  BUS
+                </div>
+                <h3>Save up to Rs.300 on bus tickets</h3>
+                <p>Valid till 30th July</p>
+                <div class="coupon_code">
+                  <p>FIRST</p>
+                </div>
+                <img src="assets/copy.svg" alt="copy">
+               </div>
+              </div>
+            </div>
+
+                <!-- card two -->
+
+                <div class="offer_card two">
+                  <div class="left">
+                      <img class="trending_offer_img" src="./assets/trending offer 2.png"
+                          alt="trending offer 2">
+                  </div>
+                  <div>
+                      <div class="bus">BUS</div>
+                      <h3>Save up to Rs 300 in AP,TS routes</h3>
+                      <p>Valid till 30 Sep</p>
+
+                      <div class="coupon_code">
+                          <div>
+                              <p>SUPERHIT</p>
+                          </div>
+                          <img src="./assets/copy.svg" alt="copy">
+                      </div>
+                  </div>
+              </div>
+                 
+            <!-- card three -->
+            <div class="offer_card three">
+              <div class="left">
+                  <img class="trending_offer_img" src="./assets/trending offer 3.png"
+                      alt="trending offer 3">
+              </div>
+              <div>
+                  <div class="bus">BUS</div>
+                  <h3>Save up to Rs 200 in Gujarat and MP routes.</h3>
+                  <p>Valid till 30 Sep</p>
+
+                  <div class="coupon_code">
+                      <div>
+                          <p>BUS200</p>
+                      </div>
+                      <img src="./assets/copy.svg" alt="copy">
+                  </div>
+              </div>
+          </div>
+          <!-- card four -->
+          <div class="offer_card four">
+            <div class="left">
+                <img class="trending_offer_img" src="./assets/trending offer 4.png"
+                    alt="trending offer 4">
+            </div>
+            <div>
+                <div class="bus">BUS</div>
+                <h3>Save up to Rs 200 in Delhi, Rajasthan, RON.</h3>
+                <p>Valid till 30 Sep</p>
+                <div class="coupon_code">
+                    <div>
+                        <p>RB200</p>
+                    </div>
+                    <img src="./assets/copy.svg" alt="copy">
+                </div>
+            </div>
+
+        </div>
+        <!-- card five -->
+        <div class="offer_card five">
+            <div class="left">
+
+                <img class="trending_offer_img" src="./assets/trending offer 5.png"
+                    alt="trending offer 5">
+            </div>
+            <div>
+                <div class="bus">BUS</div>
+                <h3>Save Up to Rs 250 on bus tickets</h3>
+                <p>Valid till 30 Sep</p>
+
+                <div class="coupon_code">
+                    <div>
+                        <p>APSRTCNEW</p>
+                    </div>
+                    <img src="./assets/copy.svg" alt="copy">
+                </div>
+            </div>
+        </div>
+        <!-- card six -->
+        <div class="offer_card six">
+          <div class="left">
+              <img class="trending_offer_img" src="./assets/trending offer 3.png"
+                  alt="trending offer 3">
+          </div>
+          <div>
+              <div class="bus">BUS</div>
+
+              <h3>Save Up to Rs 250 on TSRTC bus tickets</h3>
+              <p>Valid till 30 Sep</p>
+
+              <div class="coupon_code">
+                  <div>
+                      <p>FIRST</p>
+                  </div>
+                  <img src="./assets/copy.svg" alt="copy">
+              </div>
+          </div>
+      </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
