@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Header</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            width: 100%;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            top: 10px;
+            left: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header .container {
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header a {
+            color: white;
+            text-decoration: none;
+            padding: 0 15px;
+            font-family:cursive  ;
+        }
+        .header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .header .menu {
+            display: flex;
+            align-items: center;
+        }
+        .header .menu a {
+            margin-left: 15px;
+        }
+        .content {
+            padding: 100px 20px 20px;
+        }
+        #get-started{
+          border:1px solid rgb(224, 191, 5);
+          color: rgb(224, 191, 5);
+          padding: 5px 7px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="logo">LOGO</div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">Pricing</a>
+                <a href="#">Contact</a>
+                <a href="#">Terms and Condition</a>
+                <a href="#" id="get-started">Get Started</a>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <h1>Heading 1</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum possimus modi magni deleniti rerum provident minima nisi cum delectus, inventore, facere corrupti reprehenderit magnam ipsa. Earum tempore adipisci repellendus minima! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum possimus modi magni deleniti rerum provident minima nisi cum delectus, inventore, facere corrupti reprehenderit magnam ipsa. Earum tempore adipisci repellendus minima! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum possimus modi magni deleniti rerum provident minima nisi cum delectus, inventore, facere corrupti reprehenderit magnam ipsa. Earum tempore adipisci repellendus minima! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum possimus modi magni deleniti rerum provident minima nisi cum delectus, inventore, facere corrupti reprehenderit magnam ipsa. Earum tempore adipisci repellendus minima!</p>
+
+        <h2>Heading 2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum possimus modi magni deleniti rerum provident minima nisi cum delectus, inventore, facere corrupti reprehenderit magnam ipsa. Earum tempore adipisci repellendus minima! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum possimus modi magni deleniti rerum provident minima nisi cum delectus, inventore, facere corrupti reprehenderit magnam ipsa. Earum tempore adipisci repellendus minima! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum possimus modi magni deleniti rerum provident minima nisi cum delectus, inventore, facere corrupti reprehenderit magnam ipsa. Earum tempore adipisci repellendus minima! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum possimus modi magni deleniti rerum provident minima nisi cum delectus, inventore, facere corrupti reprehenderit magnam ipsa. Earum tempore adipisci repellendus minima!</p>
+
+        <h3>Heading 3</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum possimus modi magni deleniti rerum provident minima nisi cum delectus, inventore, facere corrupti reprehenderit magnam ipsa. Earum tempore adipisci repellendus minima! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum possimus modi magni deleniti rerum provident minima nisi cum delectus, inventore, facere corrupti reprehenderit magnam ipsa. Earum tempore adipisci repellendus minima! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum possimus modi magni deleniti rerum provident minima nisi cum delectus, inventore, facere corrupti reprehenderit magnam ipsa. Earum tempore adipisci repellendus minima! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum possimus modi magni deleniti rerum provident minima nisi cum delectus, inventore, facere corrupti reprehenderit magnam ipsa. Earum tempore adipisci repellendus minima!</p>
+    </div>
+</body>
+</html>

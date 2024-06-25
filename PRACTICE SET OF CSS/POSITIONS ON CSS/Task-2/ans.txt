@@ -1,0 +1,5 @@
+Problem Statement
+Explain the difference between Absolute and Relative positioning.
+
+Answer
+Absolute positioning places an element exactly where we specify on the page, regardless of other elements. Relative positioning moves an element relative to its original position without affecting the layout of other elements.

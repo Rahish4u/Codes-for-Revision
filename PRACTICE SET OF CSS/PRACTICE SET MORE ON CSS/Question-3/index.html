@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation Bar with Different Border Styles</title>
+  
+    <!-- Style elements using internal CSS -->
+
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      .navbar {
+        background-color: #156df0;
+        /* overflow: hidden; */
+      }
+
+      .navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+
+      .navbar li {
+        display: inline-block;
+      }
+
+      .navbar a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 11px 20px;
+        transition: color 0.3s;
+        margin: 5px;
+      }
+
+      .navbar a:hover {
+        color: #ff6347;
+      }
+
+      .border-solid {
+        border: 2px solid white;
+      }
+
+      .border-dashed {
+        border: 2px dashed white;
+      }
+
+      .border-dotted {
+        border: 2px dotted white;
+      }
+
+      .border-double {
+        border: 3px double white;
+      }
+
+      .border-groove {
+        border: 3px groove white;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#" class="border-solid">Home</a></li>
+        <li><a href="#" class="border-dashed">About Us</a></li>
+        <li><a href="#" class="border-dotted">Contact</a></li>
+        <li><a href="#" class="border-double">Blog</a></li>
+        <li><a href="#" class="border-groove">Login</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>

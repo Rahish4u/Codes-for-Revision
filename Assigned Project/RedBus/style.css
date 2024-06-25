@@ -277,3 +277,26 @@ main{
       rgb(255, 194, 111) 109.43%
     );
   }
+
+
+ /*Container*/
+ .container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px;
+ }
+
+ .container > .section_two {
+  max-width: 1200px;
+}
+
+/* section two */
+.section_two {
+  display: flex;
+  width: 1200px;
+  gap: 30px;
+  margin: 250px 0 100px 0;
+}

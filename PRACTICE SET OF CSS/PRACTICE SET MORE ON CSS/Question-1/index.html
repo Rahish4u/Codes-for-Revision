@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation Bar</title>
+
+    <!-- Style element using internal CSS -->
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .navbar {
+        display: flex;
+        background-color: #0f79e9;
+        align-items: center;
+      }
+
+      .navbar ul {
+        display: flex;
+        list-style: none;
+        gap: 10px;
+      }
+
+      .navbar a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        font-size: 20px;
+      }
+
+      .navbar a:hover {
+        color: #95076f; /* Adjust hover color as needed */
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Abouut Us</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+</html>
