@@ -122,9 +122,28 @@
 // console.log(z);
 
 
-let name = 2;
-console.log(name);
+// let name = 2;
+// console.log(name);
 
+
+let a = { name: { firstName: { surname: "Thadani" } } }; //falsy
+let b = "PW Skills"; // truthy
+let d = "Hello";
+
+// (falsy || truthy)
+// let c = d && true;
+// left to right
+console.log(a && a.name && a.name.firstName && a.name.firstName.surname);
+
+// 0,false , '',null, NaN, undefined
+//[],
+
+let age = 8;
+switch (age){
+    case age{
+        console.log("u are a tenager");
+    }
+}
 
 
 
