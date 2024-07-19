@@ -39,17 +39,16 @@
 
 // let doubleQuoteString = "Hi I am Rahish, ";
 // let singleQuotestring = 'I am start Learning Javascript';
-// let bacTickString = `This 
-// will be 
+// let bacTickString = `This
+// will be
 // benificial for me.`; // we can write multilinecode using backtick String.
 
 // console.log(doubleQuoteString, singleQuotestring, bacTickString);
 
-
 // // Arithmetic Operator
 
 // // Additional
-// let x = 30; 
+// let x = 30;
 // let y = 20;
 // console.log(x+y); //50
 
@@ -61,11 +60,11 @@
 
 // console.log(x*y); //600
 
-// // Division 
+// // Division
 
 // console.log(x/y); //1.5
 
-// // Modulus 
+// // Modulus
 
 // console.log(x%y);
 
@@ -121,30 +120,194 @@
 // z **= 5;
 // console.log(z);
 
-
 // let name = 2;
 // console.log(name);
 
+// let a = { name: { firstName: { surname: "Thadani" } } }; //falsy
+// let b = "PW Skills"; // truthy
+// let d = "Hello";
 
-let a = { name: { firstName: { surname: "Thadani" } } }; //falsy
-let b = "PW Skills"; // truthy
-let d = "Hello";
-
-// (falsy || truthy)
-// let c = d && true;
-// left to right
-console.log(a && a.name && a.name.firstName && a.name.firstName.surname);
+// // (falsy || truthy)
+// // let c = d && true;
+// // left to right
+// console.log(a && a.name && a.name.firstName && a.name.firstName.surname);
 
 // 0,false , '',null, NaN, undefined
 //[],
 
-let age = 8;
-switch (age){
-    case age{
-        console.log("u are a tenager");
-    }
+// num1 = 15;
+// num2 = 20;
+// result = num1 + num2;
+// result_type = console.log( result);
+
+// console.log(typeof result);
+
+// var students = 100;
+// students -=50;
+// console.log(students);
+
+// Condition
+/*let num = 9;
+if(num==0){
+    console.log("Zero is not odd or even number");
 }
 
+else if(num%2 ==0){
+    console.log("Number is even");
+}else{
+    console.log("Not a even number this id odd number");
+}*/
 
+// Loops
 
+/*for(i = 0; i<10; i++){
+    let name = "Rahish"
+    console.log(name);
+}
+
+for(let i = 3; i<=30; i+=3){
+    console.log(i);
+}*/
+
+/*let i = 1, n = 10;
+while(i<=10){
+    console.log(i);
+    i+=1;
+}*/
+
+/*let i = 1, n = 10;
+while(n>=i){
+    console.log(n);
+    n-=i;
+}*/
+
+/*let row = 1;
+while (row<=6){
+    let pattern = '';
+    let col = 1;
+    while(col<=row){
+        pattern+='$'
+        col++;
+    }
+
+    console.log(pattern);
+    row++;
+}*/
+
+// do while loop
+
+/*let result = '';
+let i=0;
+do{
+    i = i+1;    
+    result = result+i;
+
+}while(i<10);
+console.log(result);*/
+
+// break and continue
+
+// break
+/*for (let i = 0; i< 8; i++){
+    console.log(i);
+    if(i==6)
+        break
+}*/
+
+// continue
+/*for (let i = 0; i< 20; i++){
+    if(i%2!=0){
+        continue;
+    }
+        console.log(i);
+}*/
+
+// switch statement
+
+/*var day = 7;
+
+switch (day) {
+  case 1:
+    console.log("Sunday");
+    break;
+
+  case 2:
+    console.log("Monday");
+    break;
+
+  case 3:
+    console.log("Tuesday");
+    break;
+
+  case 4:
+    console.log("Wednesday");
+    break;
+
+  case 5:
+    console.log("Thursday");
+    break;
+
+  case 6:
+    console.log("Friday");
+    break;
+    
+  case 7:
+    console.log("Saturday");
+    break;
+
+  default:
+    console.log("day is not exist");
+} */
+
+/*let color = "green";
+
+switch (color) {
+  case "red":
+    console.log("This is the red color");
+    break;  
+
+  case "blue":
+    console.log("This is the blue color");
+    break;
+
+  case "green":
+    console.log("This is the green color");
+    break;
+
+  case "black":
+    console.log("This is the black color");
+    break;
+  default:
+    console.log("The color is not define");
+}*/
+
+/*
+let grade = "D"
+
+function getValue(grade){
+  switch(grade){
+    case "A":
+      return "Excellent";
+
+      case "B":
+      return "Average";
+
+      case "C":
+      return "Below than average";
+
+      default:
+      return "No grade"
+  }
+}
+
+console.log(getValue(grade));
+*/
+
+// Function
+/*
+function greetUser(){
+  console.log("Hi Rahish");
+}
+greetUser();
+*/
 
