@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justify Items and Self Example</title>
+    <style>
+        /* .container {
+            display: grid;
+            grid-template-columns: repeat(3, 100px);
+            grid-template-rows: repeat(2, 100px);
+            gap: 10px;
+            justify-items: center;
+            background-color: #f0f0f0;
+            padding: 10px;
+        } */
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 100px);
+            grid-template-rows: repeat(2, 100px);
+            gap: 10px;
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+        .container > div {
+            background-color: #b4e4ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .item-1{
+            justify-self: start;
+        }
+        .item-2{
+            justify-self: center;
+        }
+        .item-3{
+            justify-self: end;
+        }
+        .item-4{
+            justify-self: stretch;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item-1">1</div>
+        <div class="item-2">2</div>
+        <div class="item-3">3</div>
+        <div class="item-4">4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+</body>
+</html>

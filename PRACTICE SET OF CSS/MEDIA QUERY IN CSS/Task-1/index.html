@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Webpage</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: #eae6e6;
+            height: 10vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        main, footer{
+            margin-top: 10px;
+        }
+
+         /* applying media query */
+         @media only screen and (max-width: 600px){
+            header{
+                background-color: blue;
+            }
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Responsive Header</h1>
+    </header>
+    <main>
+      <div>Main Content</div>
+    </main>
+    <footer>
+      <div>Footer Area</div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table Creation</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 20px;
+            text-align: left;
+            font-size: x-large;
+        }
+    </style>
+</head>
+<body>
+    <table id="myTable"></table>
+
+    <script>
+        // Data for the table
+        const data = [
+            { srNo: 1, name: "Raj", position: "Sr.Dev.", address: "Varanasi" },
+            { srNo: 2, name: "Rohan", position: "Sr.Dev.", address: "Sigra" },
+            { srNo: 3, name: "Manas", position: "Sr.Dev.", address: "Sigra" },
+            { srNo: 4, name: "Amy", position: "Sr.Dev.", address: "Varanasi" }
+        ];
+
+        // Table headers
+        const headers = ["Sr. No.", "Name", "Position", "Address"];
+
+        // Get the table element
+        const table = document.getElementById('myTable');
+
+        // Create table header row
+        const thead = document.createElement('thead');
+        const headerRow = document.createElement('tr');
+        headers.forEach(header => {
+            const th = document.createElement('th');
+            th.textContent = header;
+            headerRow.appendChild(th);
+        });
+        thead.appendChild(headerRow);
+        table.appendChild(thead);
+
+        // Create table body
+        const tbody = document.createElement('tbody');
+        data.forEach(item => {
+            const row = document.createElement('tr');
+
+            Object.values(item).forEach(value => {
+                const td = document.createElement('td');
+                td.textContent = value;
+                row.appendChild(td);
+            });
+
+            tbody.appendChild(row);
+        });
+        table.appendChild(tbody);
+    </script>
+</body>
+</html>

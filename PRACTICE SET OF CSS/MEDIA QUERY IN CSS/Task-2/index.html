@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Gallery</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: calc(33.333% - 10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 800px) {
+    .gallery img {
+        max-width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 500px) {
+    .gallery img {
+        max-width: 100%;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <img src="./Image.jpg" alt="Image 1">
+        <img src="./Image.jpg" alt="Image 2">
+        <img src="./Image.jpg" alt="Image 3">
+        
+    </div>
+</body>
+</html>

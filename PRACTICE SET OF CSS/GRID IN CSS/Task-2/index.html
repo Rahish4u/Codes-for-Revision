@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid-Container</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      .gallery {
+        display: grid;
+        gap: 10px;
+        padding: 10px;
+        border: 2px solid black;
+        margin: 20px;
+      }
+
+      .item {
+        background-color: rgba(245, 200, 184, 0.968);
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+        border-radius: 10px;
+        box-shadow: aliceblue;
+      }
+
+      .item-1 {
+        grid-column:1/ span 2;
+        grid-row: 1;
+      }
+      .item-2 {
+        grid-column:3;
+        grid-row: 1 / span 2;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="gallery">
+      <div class="item item-1">A</div>
+      <div class="item item-2">B</div>
+      <div class="item item-3">C</div>
+      <div class="item item-4">D</div>
+    </div>
+  </body>
+</html>

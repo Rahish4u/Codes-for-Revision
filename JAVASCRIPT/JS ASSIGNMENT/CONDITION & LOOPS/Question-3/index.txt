@@ -1,0 +1,115 @@
+Q3. What are loops, and what do we need them? Explain different types of loops with their syntax and
+examples.
+
+Answer:
+Loops in JavaScript repeatedly execute code as long as a condition is true, making them essential for tasks like iterating over data and automating repetitive tasks.
+
+Why We Need Loops:
+Loops help automate repetitive tasks, making code more efficient and reducing the need for manual intervention. They are useful for iterating over arrays, processing data sets, executing a block of code multiple times, and more.
+
+Types of Loops in JavaScript
+1. for Loop
+2. while Loop
+3. do...while Loop
+4. for...in Loop
+5. for...of Loop
+
+**********************************************************************
+
+1. for Loop
+The for loop is commonly used when the number of iterations is known. It includes three parts: initialization, condition, and increment/decrement.
+
+Syntax:
+
+for (initialization; condition; increment) {
+  // Code to execute
+}
+
+
+Example:
+
+for (let i = 0; i < 5; i++) {
+  console.log(i); // Output: 0, 1, 2, 3, 4
+}
+
+**********************************************************************
+
+2. while Loop
+The while loop executes as long as the condition is true. It is useful when the number of iterations is not known in advance.
+
+Syntax:
+
+while (condition) {
+  // Code to execute
+}
+
+
+Example:
+
+let i = 0;
+while (i < 5) {
+  console.log(i); // Output: 0, 1, 2, 3, 4
+  i++;
+}
+
+**********************************************************************
+3. do...while Loop
+The do...while loop is similar to the while loop, but it guarantees that the code block executes at least once, even if the condition is false at the start.
+
+Syntax:
+
+do {
+  // Code to execute
+} while (condition);
+
+
+Example:
+
+let i = 0;
+do {
+  console.log(i); // Output: 0, 1, 2, 3, 4
+  i++;
+} while (i < 5);
+
+**********************************************************************
+
+4. for...in Loop
+The for...in loop iterates over the properties of an object or the indices of an array.
+
+Syntax:
+
+for (key in object) {
+  // Code to execute
+}
+
+
+Example:
+
+const student = { name: 'John', age: 20, grade: 'A' };
+for (let key in student) {
+  console.log(key + ': ' + student[key]); // Output: name: John, age: 20, grade: A
+}
+
+
+**********************************************************************
+
+5. for...of Loop
+The for...of loop iterates over the values of an iterable object like an array, string, or set.
+
+Syntax:
+
+for (element of iterable) {
+  // Code to execute
+}
+
+
+Example:
+
+const numbers = [10, 20, 30, 40];
+for (let number of numbers) {
+  console.log(number); // Output: 10, 20, 30, 40
+}
+
+**********************************************************************
+
+

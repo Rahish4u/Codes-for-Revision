@@ -1,0 +1,78 @@
+Q2. Describe the categorization of operators in JavaScript based on their functionality. Provide examples for each category.
+
+Operators in JavaScript can be categorized based on their functionality into several types:
+
+1. Arithmetic Operators:
+    Used for performing mathematical calculations.
+    Examples: `+` (addition), `-` (subtraction), `*` (multiplication), `/` (division), `%` (modulus), `++` (increment), `--` (decrement)
+  
+     let x = 5;
+     let y = 2;
+     let sum = x + y; // 7
+     let product = x * y; // 10
+    
+
+2. Assignment Operators:
+   Used to assign values to variables.
+   Examples: `=` (assign), `+=` (add and assign), `-=` (subtract and assign), `*=` (multiply and assign), `/=` (divide and assign)
+   
+     let x = 10;
+     x += 5; // 15
+     x *= 2; // 30
+   
+
+3. Comparison Operators:
+   Used to compare two values and return a boolean result.
+   Examples: `==` (equal to), `===` (strictly equal to), `!=` (not equal to), `!==` (strictly not equal to), `>` (greater than), `<` (less than), `>=` (greater than or equal to), `<=` (less than or equal to)
+   
+     let x = 5;
+     let y = 10;
+     let isEqual = (x == y); // false
+     let isStrictEqual = (x === 5); // true
+    
+
+4. Logical Operators:
+   Used to perform logical operations and return a boolean result.
+   Examples: `&&` (logical AND), `||` (logical OR), `!` (logical NOT)
+   
+     let a = true;
+     let b = false;
+     let result = a && b; // false
+     let resultOr = a || b; // true
+  
+
+5. Bitwise Operators:
+   Used to perform bitwise operations on binary representations of numbers.
+   Examples: `&` (AND), `|` (OR), `^` (XOR), `~` (NOT), `<<` (left shift), `>>` (right shift)
+   
+     let a = 5; // 0101 in binary
+     let b = 3; // 0011 in binary
+     let andResult = a & b; // 1 (0001 in binary)
+     let orResult = a | b; // 7 (0111 in binary)
+     
+
+6. String Operators:
+   Used to perform operations on strings.
+   Example: `+` (concatenation)
+   
+     let greeting = "Hello";
+     let name = "World";
+     let message = greeting + " " + name; // "Hello World"
+  
+
+7. Conditional (Ternary) Operator:
+   A shorthand for an if-else statement that returns a value based on a condition.
+    Example: `condition ? expr1 : expr2`
+ 
+     let age = 18;
+     let canVote = (age >= 18) ? "Yes" : "No"; // "Yes"
+     ```
+
+8. Type Operators:
+   Used to determine the type of a variable or to convert data types.
+   Examples: `typeof` (returns the type of a variable), `instanceof` (checks if an object is an instance of a class)
+   
+     let num = 42;
+     let type = typeof num; // "number"
+     let isArray = [] instanceof Array; // true
+    

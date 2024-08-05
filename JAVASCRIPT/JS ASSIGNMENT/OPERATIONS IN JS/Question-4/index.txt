@@ -1,0 +1,23 @@
+Q4. Discuss the precedence and associativity of operators in JavaScript. Why is understanding these concepts
+important?
+
+Answer:
+Operator Precedence
+
+What It Is: Determines which operators are evaluated first.
+Example: In `5 + 3 * 2`, `*` is evaluated before `+`, so the result is `11` (not `16`).
+
+Operator Associativity
+
+What It Is: Defines the order operators of the same precedence are evaluated.
+Left-to-Right: Most operators (e.g., `+`, `-`).
+Example: `10 - 5 + 2` evaluates as `(10 - 5) + 2`.
+
+Right-to-Left: Some operators (e.g., `**`, `=`)
+Example: `2 ** 3 ** 2` evaluates as `2 ** (3 ** 2)`.
+
+Why It Matters?
+
+Predict Results: Helps us to know how expressions will be evaluated.
+Avoid Errors: Prevents unexpected results and bugs.
+Improve Readability: Makes code easier to understand.

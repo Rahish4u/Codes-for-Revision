@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IRCTC Home page Clone</title>
+    <!-- Adding Tailwind css CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Adding font awesome CDN -->
+    <script
+      src="https://kit.fontawesome.com/fe5cec4fa3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="bg-gray-100 font-serif">
+    <!-- main div -->
+    <div class="container mx-auto p-4">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <!-- left side content -->
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+          <!-- Navbar -->
+          <header class="bg-white mx-auto mb-5">
+            <div class="container flex items-center justify-between p-4">
+              <div class="flex items-center">
+                <img
+                  src="./Assets/IRCTC Logo.svg"
+                  alt="IRCTC Logo"
+                  class="h-12 mr-4"
+                />
+                <img
+                  src="./Assets/Indian_Railways.svg.png"
+                  alt="Logo"
+                  class="h-12"
+                />
+              </div>
+              <div class="text-sm">
+                <div class="mb-1">
+                  <button class="mr-4">Ask Disha</button>
+                  <button class="mr-4">Contact us</button>
+                  <button class="#">Alerts</button>
+                </div>
+                <div>
+                  <button
+                    class="border-solid border-2 border-orange-400 mr-4 py-1 px-2 rounded-lg bg-orange-400 text-white"
+                  >
+                    Login
+                  </button>
+                  <button
+                    class="border-solid border-2 border-gray-300 mr-4 py-1 px-2 rounded-lg hover:bg-orange-400 hover:text-white"
+                  >
+                    Register
+                  </button>
+                  <button
+                    class="border-solid border-2 border-gray-300 py-1 px-2 rounded-lg hover:bg-orange-400 hover:text-white"
+                  >
+                    Agent Login
+                  </button>
+                </div>
+              </div>
+            </div>
+          </header>
+          <!-- after navbar content -->
+          <h1 class="text-3xl font-bold mb-3">Indian Railways</h1>
+          <p class="text-green-500 inline-block mr-2">Safety</p>
+          <p class="text-red-500 inline-block mr-2">Security</p>
+          <p class="text-orange-500 inline-block">Punctuality</p>
+          <div class="mt-4 text-sm">
+            <button
+              class="bg-blue-900 text-white border-solid border-2 border-blue-900 py-1 px-2 rounded-lg mr-2 mb-1"
+            >
+              <i class="fa-solid fa-ticket mr-2"></i>BOOK Ticket
+            </button>
+            <button
+              class="bg-white border-solid border-2 border-gray-300 hover:bg-blue-900 hover:text-white py-1 px-2 rounded-lg mr-2 mb-1"
+            >
+              <i class="fa-solid fa-check mr-2"></i>PNR Status
+            </button>
+            <button
+              class="bg-white border-solid border-2 border-gray-300 hover:bg-blue-900 hover:text-white py-1 px-2 rounded-lg"
+            >
+              <i class="fa-solid fa-chart-simple mr-2 mb-1"></i>Charts / Vacancy
+            </button>
+          </div>
+          <!-- Search bar container -->
+          <div class="flex justify-center mt-9 mb-2 mx-auto">
+            <div
+              class="border rounded-sm py-3 px-8 flex items-center justify-between w-full"
+            >
+              <!-- From Section -->
+              <div class="flex items-center space-x-4">
+                <i
+                  class="fa-solid fa-location-arrow text-2xl text-orange-500"
+                ></i>
+                <div>
+                  <p class="text-sm text-gray-500">
+                    From <i class="fa-solid fa-chevron-down text-xs"></i>
+                  </p>
+                  <p class="text-lg font-semibold">Bangalore</p>
+                  <p class="text-xs text-gray-400">KSR - Bangalore</p>
+                </div>
+              </div>
+
+              <!-- Swap Icon -->
+              <div class="flex items-center">
+                <i
+                  class="fa-solid fa-arrow-right-arrow-left text-xl border-solid border-2 border-gray-300 py-1 px-2 rounded-full"
+                ></i>
+              </div>
+
+              <!-- To Section -->
+              <div class="flex items-center space-x-2">
+                <i
+                  class="fa-solid fa-location-dot text-2xl text-orange-500"
+                ></i>
+                <div>
+                  <p class="text-sm text-gray-500">
+                    To <i class="fa-solid fa-chevron-down text-xs"></i>
+                  </p>
+                  <p class="text-lg font-semibold">Kasaragod</p>
+                  <p class="text-xs text-gray-400">KSD - Kasaragod</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- second search bar container -->
+          <div class="flex justify-center mt-8 mb-2 mx-auto">
+            <div
+              class="border rounded-sm py-3 px-8 flex items-center justify-between w-full"
+            >
+              <!-- Date -->
+              <div class="flex items-center space-x-4">
+                <i
+                  class="fa-solid fa-calendar-days text-2xl text-orange-500"
+                ></i>
+                <div>
+                  <p class="text-sm text-gray-500">
+                    Date <i class="fa-solid fa-chevron-down text-xs"></i>
+                  </p>
+                  <p class="text-lg font-semibold">01 Aug 23</p>
+                  <p class="text-xs text-gray-400">Tuesday</p>
+                </div>
+              </div>
+              <!-- Class -->
+              <div class="flex items-center space-x-4">
+                <i
+                  class="fa-regular fa-circle-dot text-2xl text-orange-500"
+                ></i>
+                <div>
+                  <p class="text-sm text-gray-500">
+                    Class <i class="fa-solid fa-chevron-down text-xs"></i>
+                  </p>
+                  <p class="text-lg font-semibold">3A</p>
+                  <p class="text-xs text-gray-400">AC 3 tier</p>
+                </div>
+              </div>
+
+              <!--  Seat-type -->
+              <div class="flex items-center space-x-2">
+                <i class="fa-solid fa-table-cells text-2xl text-orange-500"></i>
+
+                <div>
+                  <p class="text-sm text-gray-500">
+                    Seat Type <i class="fa-solid fa-chevron-down text-xs"></i>
+                  </p>
+                  <p class="text-lg font-semibold">Tatkal</p>
+                  <p class="text-xs text-gray-400">AC 3 tier</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button
+            class="bg-green-500 hover:bg-orange-500 text-white text-xl py-6 px-4 mt-11 rounded-lg w-full"
+          >
+            Search Train
+          </button>
+        </div>
+        <!-- right section content images -->
+        <div class="grid grid-rows-2 gap-4">
+          <img
+            src="./Assets/image-1.jpg"
+            alt="Train Image"
+            class="rounded-lg shadow-lg"
+          />
+          <img
+            src="./Assets/image-2.webp"
+            alt="Scenery Image"
+            class="rounded-lg shadow-lg"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
