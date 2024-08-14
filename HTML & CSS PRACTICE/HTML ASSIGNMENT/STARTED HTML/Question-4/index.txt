@@ -1,0 +1,16 @@
+Q4. Write a short note on a Tag and element with an example?
+
+Answer:
+
+Tag
+A tag in HTML is a part of the HTML syntax used to define elements. Tags are enclosed in angle brackets and often come in pairs: an opening tag (<tagname>) and a closing tag (</tagname>). Some tags are self-closing.
+
+Example of a tag:
+<p> is an opening tag for a paragraph.
+</p> is a closing tag for a paragraph.
+
+Element
+An element in HTML is a complete unit that includes the opening tag, content, and closing tag. It defines the structure and content of a webpage.
+
+Example:
+<p>This is a paragraph element.</p>

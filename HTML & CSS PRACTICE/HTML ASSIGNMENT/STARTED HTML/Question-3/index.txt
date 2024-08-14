@@ -1,0 +1,17 @@
+Q3. Write an HTML program that includes a heading, a paragraph of text, a horizontal line and a line break. Arrange these elements to create a simple web page layout?
+
+Answer:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Web Page Layout</title>
+</head>
+<body>
+    <h1>Welcome to My Simple Web Page</h1>
+    <p>This is a paragraph of text that gives some information about the content of this web page.</p>
+    <hr>
+    <p>This text appears after a horizontal line and a line break.<br>
+       It is separate from the previous content for clarity.</p>
+</body>
+</html>

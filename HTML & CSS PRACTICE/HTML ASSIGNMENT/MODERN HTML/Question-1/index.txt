@@ -1,0 +1,33 @@
+Q1. List out the feature of HTML5 
+
+Answer:
+1. New Semantic Elements: Includes <header>, <footer>, <section>, <article>, <aside>, <nav>.
+
+2. Multimedia: <audio> and <video> tags support native media playback.
+
+3. Graphics: <canvas> for 2D graphics; <svg> for scalable vector graphics.
+
+4. Form Enhancements: New input types like email, date, number; attributes like placeholder, required.
+
+5. APIs: Geolocation, Web Storage (localStorage and sessionStorage), Web Workers, Web Sockets.
+
+6. Offline Capabilities: Application Cache, Service Workers for offline functionality.
+
+7. Accessibility: ARIA support for accessible web applications.
+
+8. SVG and MathML: Native support for vector graphics and mathematical notation.
+
+9. Microdata: Enhances machine-readability with embedded metadata.
+
+10. Custom Data Attributes: Use data-* for storing custom data.
+
+11. Internationalization: Better support for various languages and character sets.
+
+12. Doctype and Charset: Simple doctype (<!DOCTYPE html>) and UTF-8 encoding.
+
+13. Error Handling: Improved parsing and error handling for consistent rendering.
+
+
+
+
+

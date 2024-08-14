@@ -1,0 +1,13 @@
+Q5. What is DOCTYPE declaration in html? 
+
+Answer:
+The <!DOCTYPE> declaration in HTML is an instruction to the web browser about the version of HTML that the page is written in. It helps the browser render the content correctly.
+
+Purpose
+*Specifies HTML Version*: It specifies the version of HTML being used, which can affect how the browser interprets the page's code.
+
+*Ensures Standards Mode*: It triggers standards mode in browsers, ensuring that the page is rendered according to modern web standards rather than in "quirks mode," which emulates older browser behaviors.
+
+it`s look like this
+
+<!DOCTYPE html>

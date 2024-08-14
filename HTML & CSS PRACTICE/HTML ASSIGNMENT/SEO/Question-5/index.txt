@@ -1,0 +1,5 @@
+Q5. Define Favicon and give an illustrative example.
+
+Answer:
+A favicon (short for "favorite icon") is a small, 16x16 or 32x32 pixel icon displayed in a browser's address bar, tab, bookmark list, and other places where a visual representation of a website is needed. It helps users quickly identify and recognize a website, providing a visual cue for navigation and branding.
+
