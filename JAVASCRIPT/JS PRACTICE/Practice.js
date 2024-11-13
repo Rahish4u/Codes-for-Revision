@@ -310,4 +310,3 @@ function greetUser(){
 }
 greetUser();
 */
-

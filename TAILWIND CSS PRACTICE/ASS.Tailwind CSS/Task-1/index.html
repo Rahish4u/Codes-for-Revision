@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS</title>
+    <!-- link tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- Main container -->
+    <div class="flex items-center justify-center w-full">
+      <!-- Form section -->
+      <div class="w-[full] p-10">
+        <div class="flex flex-col  gap-5">
+          <div>
+            <h2 class="text-2xl text-center mb-4">Login</h2>
+            <p class="text-center text-sm text-gray-500">
+              Enter your credential to access your account
+            </p>
+          </div>
+          <div
+            class="flex items-center justify-center gap-3 border-2 py-3 rounded-md"
+          >
+            <img class="h-5 w-5" src="./Google.jpg" alt="Google" />
+            <p class="font-semibold"><a href="">Log with Google</a></p>
+          </div>
+          <div class="flex items-center justify-center gap-3">
+            <div class="flex-grow border-t-2 border-gray-300"></div>
+            <p class="font-semibold">Or</p>
+            <div class="flex-grow border-t-2 border-gray-300"></div>
+          </div>
+          <!-- Input fields -->
+          <div class="gap-5">
+            <label class="font-semibold text-md" for="email"
+              >Email Address</label
+            >
+            <br />
+            <input
+              class="px-1 py-2 w-full border-2 rounded-md mb-5"
+              type="text"
+              name="email"
+              id="email"
+              placeholder="email@email.com"
+            />
+            <br />
+            <label for="password">
+              <div class="flex justify-between">
+                <p class="font-semibold text-md">Password</p>
+                <p class="font-semibold text-md text-blue-500">
+                  <a href="#" id="forgotPassword">Forgot your password?</a>
+                </p>
+              </div>
+              <input
+                class="px-1 py-2 w-full border-2 rounded-md mb-5"
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Password"
+              />
+            </label>
+          </div>
+          <div class="flex items-center justify-center ">
+            <button class="text-white bg-blue-500 w-full py-2 font-semibold">Login</button>
+          </div>
+          <div class="flex items-center justify-center font-semibold">
+            <p class="text-gray-500 mr-2">Don't have an account?</p>
+            <p><a href="#">Registered here</a></p>
+            
+          </div>
+        </div>
+      </div>
+      <!-- Image section -->
+      <!-- <div class="hidden sm:flex sm:w-[50%] flex items-center justify-center">
+        <img class="w-[50%] h-[auto]" src="./Fingering image.png" alt="" />
+      </div> -->
+    </div>
+  </body>
+</html>

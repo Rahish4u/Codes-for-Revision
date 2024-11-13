@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping list</title>
+  </head>
+  <body>
+    <div class="conatiner">
+      <input type="text" placeholder="Enter item" id="input" />
+      <button id="btn">Add item</button>
+      <ul id="item-list">
+      </ul>
+    </div>
+
+    <script>
+      var inp = document.getElementById('input');
+      var btn = document.getElementById('btn');
+      var itemList = document.getElementById('item-list');
+
+      btn.addEventListener("click", function(){
+        var itemText = inp.value;
+        if(itemText !== ""){
+            // create a li item to store value
+           var listItems = document.createElement("li");
+           listItems.textContent = itemText;
+
+           // Create a delete button to remove list items
+           var delBtn = document.createElement("button");
+           delBtn.textContent = "Delete";
+           delBtn.onclick = function(){
+            itemList.removeChild(listItems)
+           }
+
+           itemList.appendChild(listItems);
+           listItems.appendChild(delBtn)
+
+           //Clear the input field
+           inp.value = "";
+
+        }else{
+            alert("Please enter a valid value")
+        }
+      })
+    </script>
+  </body>
+</html>
+

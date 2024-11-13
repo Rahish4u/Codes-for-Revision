@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Side Navbar</title>
+    <!-- Linking Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/fe5cec4fa3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Main Container -->
+    <div class="flex bg-gray-100 h-screen w-full ">
+      <!-- left side navbar -->
+        <div class="flex flex-col bg-sky-950 text-white h-screen w-[25%] ">
+          <h1 class="text-center text-xl font-bold mt-5">Dashboard</h1>
+          <div>
+            <ul class="flex flex-col mt-5">
+              <li class="flex items-center justify-left gap-3 p-2 hover:bg-gray-600 hover:rounded-sm">
+                <i class="fa-solid fa-gauge"></i>
+                <a href="#">Dashboard</a>
+              </li>
+              <li class="flex items-center justify-left gap-3 p-2 hover:bg-gray-600 hover:rounded-sm">
+                <i class="fa-solid fa-people-group"></i>
+                <a href="#">Team</a>
+            </li>
+              <li class="flex items-center justify-left gap-3 p-2 hover:bg-gray-600 hover:rounded-sm">
+                <i class="fa-solid fa-folder"></i>
+                <a href="#">Projects</a>
+            </li>
+              <li class="flex items-center justify-left gap-3 p-2 hover:bg-gray-600 hover:rounded-sm">
+                <i class="fa-solid fa-calendar-days"></i>
+                <a href="#">Calender</a>
+            </li>
+              <li class="flex items-center justify-left gap-3 p-2 hover:bg-gray-600 hover:rounded-sm">
+                <i class="fa-solid fa-file-lines"></i>
+                <a href="#">Documents</a>
+            </li>
+              <li class="flex items-center justify-left gap-3 p-2 hover:bg-gray-600 hover:rounded-sm">
+                <i class="fa-solid fa-clipboard-check"></i>
+                <a href="#">Reports</a>
+            </li>
+            </ul>
+          </div>
+          <div class="mt-10">
+            <p class="ml-5 mb-2">Your Team</p>
+            <ul class="flex flex-col">
+              <li class="flex items-center justify-left gap-3 p-2 hover:bg-gray-600 hover:rounded-sm">
+                <i class="fa-solid fa-people-group"></i>
+                <a href="#">PW Skills</a>
+            </li>
+              <li class="flex items-center justify-left gap-3 p-2 hover:bg-gray-600 hover:rounded-sm">
+                <i class="fa-solid fa-people-group"></i>
+                <a href="#">PW Labs</a>
+            </li>
+              <li class="flex items-center justify-left gap-3 p-2 hover:bg-gray-600 hover:rounded-sm">
+                <i class="fa-solid fa-people-group"></i>
+                <a href="#">PW IOI</a>
+            </li>
+            </ul>
+          </div>
+        </div>
+      <!-- right navbar -->
+      <div class="flex justify-between bg-white h-fit w-full m-3 p-3 shadow-lg">
+        
+          <ul class="flex items-center justify-center">
+            <li class="flex items-center justify-center font-semibold gap-3 hover:cursor-pointer">
+                <i class="fa-regular fa-user font-semibold"></i>
+                <a href="#">Profile</a>
+            </li>
+          </ul>
+        
+          <ul class="flex items-center justify-center">
+            <li class="flex items-center justify-center font-semibold gap-3 hover:cursor-pointer">
+                <i class="fa-solid fa-magnifying-glass font-semibold"></i>
+                <i class="fa-solid fa-bell font-semibold"></i>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </body>
+</html>

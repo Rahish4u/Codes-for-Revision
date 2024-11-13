@@ -1,0 +1,2 @@
+Q6. Create a simple image carousel using HTML and JavaScript, Design a basic HTML structure with images,
+and use JavaScript to implement functionality that allows users to navigate through the images.

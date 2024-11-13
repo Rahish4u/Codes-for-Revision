@@ -1,0 +1,28 @@
+Pillars of Javascript
+
+1. Scope and Closure
+2. Coercion and types
+3. Objects and Classes
+4. Async Programming
+
+
+**Interpreted Language**
+These are those Language, which execute our code directly, without reading/ analysing the whole code prior. They execute code line by line, if any line has an error, then everything before gets properly executed and the momemnt we detect the first error, execution stop.
+1. Scope and Closure
+In Javascript, we use the concept of scopes to figure out where a variable or function is accesible/ visible.
+
+
+
+Types of Scopes in Javascript
+1. Global Scope
+2. Function Scope
+3. Block Scope
+
+1. Global Scope
+Global scope variable can be accesible from anywhere in the program.
+
+2. Function Scope
+
+
+
+

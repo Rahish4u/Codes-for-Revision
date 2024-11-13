@@ -1,0 +1,4 @@
+class product{
+    display(){
+    }
+}

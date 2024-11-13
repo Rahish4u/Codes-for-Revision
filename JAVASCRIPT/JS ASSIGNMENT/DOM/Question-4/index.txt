@@ -1,0 +1,10 @@
+Q4. Explain the purpose of the addEventListener method in JavaScript and how it facilitates event handling in
+the DOM.
+
+Answer:
+The addEventListener method in JavaScript is used to attach an event handler to a specific DOM element, allowing we to listen for and respond to various events, like clicks or key presses.
+
+Key Purposes:
+1. Multiple Handlers: we can add multiple event handlers of the same type to one element without replacing existing ones.
+2. Event Control: It provides options like capture, once, and passive to control how events are handled.
+3. Code Organization: It separates event handling from HTML, making your code easier to maintain.

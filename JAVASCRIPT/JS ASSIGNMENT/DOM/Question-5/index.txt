@@ -1,0 +1,1 @@
+Q5. Create an HTML page with a button. Use JavaScript to display an alert when the button is clicked.

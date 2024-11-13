@@ -73,7 +73,7 @@ console.log(`Reversed string: ${reversedStr}`);
 */
 
 // 6. Write a program that counts the number of vowels in a given string.
-
+/*
 let str = prompt("enter a string")
 let count = 0;
 let vowels = 'aeiouAEIOU';
@@ -83,3 +83,5 @@ for (let i = 0; i <= str.length; i++){
     }
 }
 console.log(`Number of vowels: ${count}`);
+*/
+

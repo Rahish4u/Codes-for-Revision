@@ -1,0 +1,3 @@
+Q7. Build a dynamic dropdown menu using HTML and JavaScript. Create an HTML structure for a navigation
+menu with dropdowns. Use JavaScript to toggle the visibility of dropdowns when the user hovers over menu
+items.

@@ -1,0 +1,11 @@
+Q-1.
+Explain the DOM and its role in Web development.
+
+Answer:
+The DOM (Document Object Model) is a representation of an HTML document as a tree structure, where each element, attribute, and text is a node. It allows JavaScript to access and modify the content, structure, and styles of a webpage.
+
+In web development, the DOM is crucial because it:
+
+-- Enables dynamic updates to content without reloading the page.
+-- Handles user interactions through events (e.g., clicks, inputs).
+-- Lets developers change HTML/CSS in real-time, making web pages interactive and responsive.
